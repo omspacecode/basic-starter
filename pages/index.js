@@ -42,7 +42,6 @@ export async function getStaticProps() {
       props: {
         randomUsers,
       },
-      revalidate: 5,
     };
   } catch (error) {
     console.error("Error fetching random users:", error);
